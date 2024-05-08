@@ -1,0 +1,61 @@
+body{
+    font-family: 'baloo chettan 2',verdana;
+    margin:0;
+    color:black;
+}
+.pointer{
+    cursor: pointer;
+}
+.caption{
+    padding:10px 20px;
+    font-size: 20px;
+}
+.caption span{
+color:blue;
+font-weight: 600;
+font-size: 24px;
+margin-left: 10px;
+}
+
+.header{
+    background-color: black;
+    color:white;
+    padding:10px 20px 20px 20px;
+    position:relative;
+}
+
+.header .subtitle{
+    position:absolute;
+    top:41px;
+    left: 67px;
+    letter-spacing: 0.7px;
+}
+.header .title{
+    font-size: 30px;
+    display: flex;
+    color:brown;
+}
+body{
+    top:5px;
+}
+.sections{
+    display: flex;
+}
+
+.sections>div{
+       width:34%;
+       height:1000px;
+       margin-top:20px;
+       font-size: 40px;
+       font-weight: 500;
+
+}
+.sections .js{
+    background: yellow;
+}
+.sections .git{
+    background: red;
+}
+.sections .react{
+    background: green;
+}
